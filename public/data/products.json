@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Peladora de cable FO",
+    "description": "Peladora de cable de FO, apta también para cable UTP CAT 5, 5e, 6 y 6a. Muy buen agarre",
+    "price": 2500,
+    "image": "/img/Pelacable.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cable UTP CAT 6",
+    "description": "Rollo de cable UTP, CAT 6, 300mts. Apto para instalaciones interiores.",
+    "price": 6000,
+    "image": "/img/Cable UTP.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fluke",
+    "description": "Fluke 3500e, el mas completo para mediciones de FO, UTP.",
+    "price": 28900,
+    "image": "/img/Fluke.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Notebook CX",
+    "description": "Notebook CX, Procesador: i7, 16Gb RAM, SSD 1Tb. Incluye SO Win 11 y Paquete Office 2026",
+    "price": 135000,
+    "image": "/img/CX.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Notebook HP",
+    "description": "Notebook HP, Procesador: i9, 32Gb RAM, SSD 2Tb. Incluye SO Win 11 y Paquete Office 2026.",
+    "price": 142000,
+    "image": "/img/HP.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Notebook ASUS",
+    "description": "Notebook ASUS, Procesador: i7, 32Gb RAM, SSD 2Tb. Incluye SO Win 11 y Paquete Office 2026.",
+    "price": 140500,
+    "image": "/img/ASUS.jpg"
+  }
+]
