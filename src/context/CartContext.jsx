@@ -8,7 +8,7 @@ import {
 import { useNavigate } from "react-router-dom";
 
 /* ------------------------------------------ */
-/*           CREAMOS CONTEXTO                 */
+/*           CREAMOS CONTEXTO  (CARRITO)      */
 /* ------------------------------------------ */
 
 const CartContext = createContext();
