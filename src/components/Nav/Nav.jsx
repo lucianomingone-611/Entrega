@@ -12,11 +12,11 @@ export const Nav = () => {
       {}
       <ul className="nav-list">
         <li>
-          <Link to={"/"}>Home</Link>
+          <Link to={"/"}>Inicio</Link>
         </li>
         <li>
           <Link to={"/carrito"}>
-            Carrito
+            🛒
             {totalIems > 0 && <span className="incart">{totalIems}</span>}
           </Link>
         </li>
