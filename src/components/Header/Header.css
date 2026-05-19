@@ -12,6 +12,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
+  font-family: arial, sans-serif;
 }
 .logo-container {
   display: flex;

@@ -6,7 +6,7 @@ export const ItemDetail = ({ item }) => {
 
   return (
     <Item {...item}>
-      <button className="btn primary" onClick={() => addItem(item)}>
+      <button className="btn bg-primary primary" onClick={() => addItem(item)}>
         Agregar al carrito
       </button>
     </Item>
