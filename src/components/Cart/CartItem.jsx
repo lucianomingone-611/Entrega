@@ -1,5 +1,5 @@
-import { useCart } from "../../src/context/CartContext";
-import { Item } from "../../src/components/Item/Item";
+import { useCart } from "../../context/CartContext";
+import { Item } from "../Item/Item";
 
 export const CartItem = ({ item }) => {
   const { removeItem } = useCart();

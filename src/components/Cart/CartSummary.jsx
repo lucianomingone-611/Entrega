@@ -1,4 +1,4 @@
-import { useCart } from "../../src/context/CartContext";
+import { useCart } from "../../context/CartContext";
 
 export const CartSummary = () => {
   const { getCartTotal, checkout } = useCart();

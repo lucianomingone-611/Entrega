@@ -10,6 +10,11 @@ body {
   padding: 20px;
   color: #eaeaea;
   font-family: system-ui, sans-serif;
+  background-image: url("../public/img/Fondo.jpg");
+  background-size: cover; /* Cubre toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* No repite la imagen */
+  background-attachment: fixed; /* Opcional: fija la imagen al hacer scroll */
 }
 
 /* Para que el footer quede abajo siempre: hay que mantener la estructura de header-main-footer */
@@ -25,7 +30,11 @@ main {
   margin: auto;
   background: #ddd;
   padding: 20px;
-  /*font-family: arial, sans-serif;*/
+  background-image: url("../public/img/Fondo3.jpg");
+  background-size: cover; /* Cubre toda la pantalla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* No repite la imagen */
+  background-attachment: fixed; /* Opcional: fija la imagen al hacer scroll */
 }
 
 h1 {
