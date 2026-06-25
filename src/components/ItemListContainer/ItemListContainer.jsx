@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ItemList } from "../ItemList/ItemList";
 import { getByCategory, getProducts } from "../../services/productsService";
 import { useParams } from "react-router-dom";
-//import { Categories } from "../categories/categories";
+import { Categories } from "../categories/categories";
 
 export const ItemListContainer = () => {
   //tomamos "category" del useParams para poder filtrar

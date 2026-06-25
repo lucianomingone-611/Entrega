@@ -5,12 +5,22 @@ const categorias = ["herramientas y equipamiento", "cableado", "notebooks"];
 export const Categories = () => {
   return (
     <div>
-      <h1>Categorías</h1>
+      <h1>Categorias</h1>
 
       <div style={{ display: "flex", gap: "20px" }}>
         {categorias.map((cat) => (
           <Link key={cat} to={`/category/${cat}`}>
-            <button id="miBoton">{cat}</button>
+            <img
+              src={cat.image}
+              alt={cat.name}
+              style={{
+                width: "200px",
+                height: "150px",
+                objectFit: "cover",
+                cursor: "pointer",
+                borderRadius: "8px",
+              }}
+            />
           </Link>
         ))}
       </div>
